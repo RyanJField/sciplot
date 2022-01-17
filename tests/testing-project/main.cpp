@@ -1,7 +1,5 @@
-#include <sciplot/sciplot.hpp>
-using namespace sciplot;
-
 #include "util.hpp"
+using namespace sciplot;
 
 int main(int argc, char** argv)
 {
