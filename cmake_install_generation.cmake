@@ -41,7 +41,7 @@ install(EXPORT sciplot-export
 
 include(CMakePackageConfigHelpers)
 configure_package_config_file(
-        ${CMAKE_SOURCE_DIR}/cmake/PackageConfigTemplates/sciplotConfig.cmake.in
+        ${CMAKE_CURRENT_SOURCE_DIR}/cmake/PackageConfigTemplates/sciplotConfig.cmake.in
         ${CMAKE_BINARY_DIR}/sciplotConfig.cmake
         INSTALL_DESTINATION
         ${CMAKE_INSTALL_DATAROOTDIR}/${CMAKE_PROJECT_NAME}/
