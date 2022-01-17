@@ -1,4 +1,4 @@
-#include <sciplot/sciplot.hpp>
+#include <util.hpp>
 using namespace sciplot;
 
 void plot()
