@@ -1,4 +1,4 @@
-#include "util.hpp"
+#include "main.hpp"
 using namespace sciplot;
 
 int main(int argc, char** argv)
